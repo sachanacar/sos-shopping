@@ -1,0 +1,55 @@
+#modal-one{
+    top: 20px;
+    right: 20px;
+    position: fixed;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #666;
+    padding: 20px;
+    min-width: 200px;
+    z-index: 9999;
+}
+#status_message{
+    margin-bottom: 20px;
+    font-family: Helvetica;
+}
+
+.modal-header h2 {
+  font-family: Helvetica;
+  font-size: 20px;
+}
+.btn-close {
+  color: #aaaaaa;
+  font-size: 20px;
+  font-family: Helvetica;
+  text-decoration: none;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  background: none;
+  border: none;
+}
+.btn-close:hover {
+  color: #919191;
+  background: none;
+  border: none;
+}
+.btn {
+  background: #428bca;
+  border: #357ebd solid 1px;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 15px;
+  text-decoration: none;
+  text-align: center;
+  min-width: 60px;
+  position: relative;
+  transition: color .1s ease;
+  /* top: 40em;*/
+}
+.btn:hover {
+  background: #357ebd;
+}
