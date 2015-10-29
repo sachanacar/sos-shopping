@@ -1,7 +1,9 @@
 SOS Shopping Chrome Extensions
 =========================
-
+![SOS Shopping icon](http://blog.voxbone.com/wp-content/uploads/2015/10/icon-150x150.png)
 This app is a code sample that features how the Voxbone WebRTC SDK can be used to create a chrome extension that can be used to call an agent when visit a shopping website and having questions at checkout. When pressing on the Click2Call extension button, the IP, URL, and name of the person calling are sent to a remote agent that can assist the user directly in the browser.
+
+![SOS Shopping Screenshot](http://blog.voxbone.com/wp-content/uploads/2015/10/soso-shopping-1.png)
 
 ##How to run
 
