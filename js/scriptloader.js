@@ -24,14 +24,14 @@ document.getElementsByTagName('head')[0].appendChild(crypto2);
 
 //Inject JSSIP Dependency
 var jssip = document.createElement('script');
-jssip.src = 'https://webrtc.voxbone.com/js/jssip-0.3.0.js';
+jssip.src = 'https://webrtc.voxbone.com/js/jssip-0.7.9.min-vox.js';
 jssip.type = 'text/javascript';
 jssip.async = true;
 document.getElementsByTagName('head')[0].appendChild(jssip);
 
 //Inject VoxboneJS dependency
 var voxbone = document.createElement('script');
-voxbone.src = 'https://webrtc.voxbone.com/js/voxbone-0.0.2.js';
+voxbone.src = 'https://webrtc.voxbone.com/js/voxbone-0.0.5.js';
 voxbone.type = 'text/javascript';
 voxbone.async = true;
 document.getElementsByTagName('head')[0].appendChild(voxbone);
